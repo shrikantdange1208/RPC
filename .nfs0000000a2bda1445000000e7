@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "Server"
+ant build
+ant Server -Darg0=$1
+

@@ -1,0 +1,23 @@
+1. Command Line arguments.
+	Server  - Port number
+	Client  - 5 arguments
+2. Exception Handling: Read File 	
+							Check if file exists
+							Check if file exists and owner is same as given
+					   Delete File
+					   		Check if file exists
+							Check if file exists and owner is same as given
+3.ListOwnedFiles: If file is deleted, its metadata is not returned. Check its version number
+4.Everytime a server is started output directory and data structure used should be flushed.
+5.Make File or build.xml
+6.Readme.
+7.Client file not found exception
+
+
+
+Build.xml
+Shell script
+exception of ports do not match
+<arg line="localhost 9090 --operation write --filename test3.txt --user shrikant"/>
+
+-Darg0="localhost" -Darg1="9092" -Darg2="--operation" -Darg3="write" -Darg4="--filename" -Darg5="test3.txt" -Darg6="--user" -Darg7="shrikant"
